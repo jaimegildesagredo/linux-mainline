@@ -2,7 +2,7 @@
 # arg 2:  the old package version
 
 KERNEL_NAME=-mainline
-KERNEL_VERSION=3.17.3-1-mainline
+KERNEL_VERSION=3.17.3-2-mainline
 
 post_install () {
   # updating module dependencies

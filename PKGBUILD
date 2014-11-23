@@ -1,7 +1,7 @@
 pkgbase=linux-mainline
 _srcname=linux-3.17
 pkgver=3.17.3
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 url="http://www.kernel.org/"
 license=('GPL2')
