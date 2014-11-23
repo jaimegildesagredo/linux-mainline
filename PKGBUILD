@@ -298,8 +298,8 @@ done
 
 md5sums=('fb30d0f29214d75cddd2faa94f73d5cf'
          '13f495e3ce72ed6ccefb38591587a6ef'
-         'dd21e7ad29a225959f7b8826f0446e17'
-         'e0085cf33967ff803de9e0ae1f12504c'
+         'b2ffd09cee84876c4ae8842319352e17'
+         'd76bf9f3cc4afc302ff2012c32af2d70'
          'eb14dcfd80c00852ef81ded6e826826a'
          'df7fceae6ee5d7e7be7b60ecd7f6bb35'
          'ee9e4d173c2fff74659c862479570d36'
