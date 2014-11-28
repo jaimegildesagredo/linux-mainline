@@ -1,7 +1,7 @@
 pkgbase=linux-mainline
 _srcname=linux-3.17
-pkgver=3.17.3
-pkgrel=2
+pkgver=3.17.4
+pkgrel=1
 arch=('i686' 'x86_64')
 url="http://www.kernel.org/"
 license=('GPL2')
@@ -148,7 +148,7 @@ _package() {
   mv "${pkgdir}/lib" "${pkgdir}/usr/"
 
   # add vmlinux
-  install -D -m644 vmlinux "${pkgdir}/usr/lib/modules/${_kernver}/build/vmlinux" 
+  install -D -m644 vmlinux "${pkgdir}/usr/lib/modules/${_kernver}/build/vmlinux"
 }
 
 _package-headers() {
@@ -297,7 +297,7 @@ for _p in ${pkgname[@]}; do
 done
 
 md5sums=('fb30d0f29214d75cddd2faa94f73d5cf'
-         '13f495e3ce72ed6ccefb38591587a6ef'
+         'df86f9de60a651ce3312af09729f7b1e'
          'b2ffd09cee84876c4ae8842319352e17'
          'd76bf9f3cc4afc302ff2012c32af2d70'
          'eb14dcfd80c00852ef81ded6e826826a'
